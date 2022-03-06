@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'commander', '~> 4.1'
   s.add_dependency 'json', '~> 2.6.1'
   s.add_dependency 'rubyzip', '~> 2.3.2'
-  s.add_dependency 'sinatra', ['>= 1.3', '< 2.0.0']
+  s.add_dependency 'sinatra', '~> 2.2.0'
   s.add_dependency 'terminal-table', '~> 1.4'
 
   s.add_development_dependency 'rack-test'
